@@ -1,0 +1,78 @@
+% -----------------------------------------------------------------------------
+%  Thèse de doctorat – Page de garde compacte (logo → jury sur UNE page)
+%  Date : 09/07/2025
+% -----------------------------------------------------------------------------
+\documentclass[12pt,oneside]{report}
+
+% --------------------- Packages de base -------------------------------------
+\usepackage[a4paper,margin=2.2cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{tikz,eso-pic,xcolor}
+\usepackage{setspace}
+
+\hypersetup{
+  pdftitle={Analyse de la performance technico\-économique de la chaîne de valeur maïs au Tchad},
+  pdfauthor={Ache Billah KELEI ABDALLAH},
+  pdfkeywords={maïs, chaîne de valeur, performance technico\-économique, Tchad},
+  colorlinks=true, linkcolor=black, urlcolor=blue, citecolor=black}
+
+% ---------------------- Palette & décor -------------------------------------
+\definecolor{Accent}{HTML}{006699}
+\definecolor{LightAccent}{HTML}{E6F2F8}
+
+\AddToShipoutPictureBG*{
+  \begin{tikzpicture}[remember picture,overlay]
+    \fill[LightAccent] (current page.north west) rectangle ([yshift=-2.2cm]current page.north east);
+    \fill[LightAccent] (current page.south west) rectangle ([yshift=1.8cm]current page.south east);
+  \end{tikzpicture}}
+
+\begin{document}
+\begin{titlepage}
+\begin{spacing}{1.1}
+\centering
+
+\vspace*{-1.0cm}
+\includegraphics[width=3cm]{Logo THIES.jpg}\\[0.3cm]
+
+{\Large\bfseries UNIVERSITÉ IBA DER THIAM DE THIÈS\\[0.3cm]}
+{\large École Doctorale « Développement Durable et Société »}\\[0.6cm]
+
+{\large\bfseries THÈSE DE DOCTORAT UNIQUE}\\[0.3cm]
+{\normalsize Année académique 2023–2024}\quad\textbullet\quad\normalsize  N\textsuperscript{o}\ d’ordre : \textbf{XXX/202/ED2DS}\\[0.8cm]
+
+\rule{\linewidth}{0.45mm}\\[-0.2cm]
+{\Large\bfseries Analyse de la performance technico\-économique\\[0.15cm]de la chaîne de valeur maïs au Tchad}\\[-0.2cm]
+\rule{\linewidth}{0.45mm}\\[0.9cm]
+
+{\normalsize Thèse présentée pour l’obtention du grade de}\\[0.15cm]
+{\normalsize\bfseries Docteur de l’Université Iba Der Thiam de Thiès}\\[0.15cm]
+Mention\ : \textbf{Sciences agronomiques}\;—\;Spécialité\ : \textbf{Économie et Sociologie Agricole}\\[0.8cm]
+
+{\large Présentée par}\\[0.15cm]{\Large\bfseries Mme\ Ache Billah KELEI ABDALLAH}\\[1.0cm]
+
+\raggedright
+\small
+\textbf{Président}\\
+M.\ Papa\ Ibra\ SAMB — Professeur titulaire, UIDT\\[0.4cm]
+
+\textbf{Rapporteurs}\\
+M.\ Saliou\ NDIAYE — Professeur titulaire, ENSA\\
+M.\ Saliou\ FALL — Directeur de recherche, ISRA\\
+M.\ Ousmane\ NDIAYE — Enseignant\-chercheur, ENSA\\[0.4cm]
+
+\textbf{Examinateurs}\\
+M.\ Moustapha\ GUEYE — Maître de recherche, Directeur\ Général\ ISRA\ (Sénégal)\\
+Dr\ Nadjiam\ DJIRABAYE — Maître de recherche, Directeur\ Scientifique\ de\ l’ITRAD\ (Tchad)\\[0.4cm]
+
+\textbf{Directeur de thèse}\\
+M.\ Abdoulaye\ DIENG — Professeur titulaire, ENSA
+\end{spacing}
+
+\end{titlepage}
+
+% ---------------------- Corps du document -----------------------------------
+% Texte converti ci-dessous
